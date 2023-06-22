@@ -5,6 +5,7 @@ import {
     Route,
     Link,
 } from "react-router-dom";
+import './style.css'
 
 const App = () => {
     const router = createBrowserRouter([
@@ -14,7 +15,7 @@ const App = () => {
         },
         {
             path: "/earth",
-            element: <div>Hello earth!</div>,
+            element: <div className="red">Hello earth!</div>,
         },
     ]);
 
